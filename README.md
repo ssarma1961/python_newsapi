@@ -8,4 +8,5 @@ A python script has been created to make this API call , collect the data in JSO
 The collected news is uploaded into google drive folder.
 The script is run as a cron job so that the script runs daily at a specified hour. You may have to set up a wake schedule for your sysytem which requires you to log in as root and set up the schedule.
 Typical output:
+
 <img width="1819" alt="image" src="https://user-images.githubusercontent.com/61753816/217335372-147ba5df-05bc-45e5-9596-1e4124c2791f.png">
