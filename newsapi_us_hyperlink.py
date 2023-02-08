@@ -19,7 +19,7 @@ def get_topheadlines():
     # Make the API request and get the response
     response = requests.get(endpoint, params=params)
     output=response.json()
-    outfile="/Users/sankarasarma/Library/CloudStorage/GoogleDrive-sankarasarma@gmail.com/My Drive/DailyNews/"+"us"+str(today)+".csv"
+    outfile="/Users/sankarasarma/Library/CloudStorage/GoogleDrive-xxxxxxx@gmail.com/My Drive/DailyNews/"+"us"+str(today)+".csv". #use a valid email id
     data=pd.DataFrame(output["articles"], columns=["title","description","url"])
     urlhyper=data['url']
     #print(urlhyper)
